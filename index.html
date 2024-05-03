@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Journal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHo6k9O_HZJkx6P_mzDcTXSZDG3KlaGyU&callback=initMap&libraries=&v=weekly" async></script>
+</head>
+<body>
+    <header>
+        <h1>My Travel Journal</h1>
+    </header>
+    <main>
+        <section id="intro">
+            <p>Welcome to my travel journal, where I document my adventures around the world.</p>
+        </section>
+        <section id="map">
+            <div id="googleMap" style="width:100%;height:400px;"></div>
+        </section>
+        <section id="journal-entries">
+            <!-- Entries can be dynamically loaded or added here -->
+        </section>
+    </main>
+    <footer>
+        <p>Contact me at: <a href="mailto:vkchntkn@memphis.edu">vkchntkn@memphis.edu</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
